@@ -20,27 +20,6 @@ The system demonstrates how privacy-preserving machine learning can achieve perf
 - Distributed systems with Apache Kafka
 - End-to-end ML pipelines
 
-## System Architecture
-Clients train models locally on their private datasets. Model updates are exchanged asynchronously through Kafka topics. A central aggregation server collects local updates, applies FedAvg, and broadcasts the global model back to clients. A Streamlit dashboard visualizes training progress and performance metrics.
-
-## Project Structure
-.
-├── aggregation.py          # FedAvg implementation
-├── client.py               # Federated client logic
-├── server.py               # Aggregation and orchestration server
-├── model/
-│   └── churn_model.py      # ML pipeline and utilities
-├── messaging/
-│   ├── producer.py         # Kafka producer wrapper
-│   └── consumer.py         # Kafka consumer wrapper
-├── data/
-│   └── telco_churn.csv     # Local dataset
-├── dashboard/
-│   └── app.py              # Streamlit dashboard
-├── docker-compose.yml      # System orchestration
-├── requirements.txt
-└── README.md
-
 ## Technologies Used
 - Python
 - Scikit-learn
@@ -108,3 +87,4 @@ AI / Machine Learning Engineer
 
 ## License
 This project is intended for educational and research purposes.
+
