@@ -82,9 +82,7 @@ The federated model achieves performance close to centralized training while sig
 - Extension to deep learning models
 - Improved fault tolerance and asynchronous training
 
-## Author
-AI / Machine Learning Engineer
-
-## License
-This project is intended for educational and research purposes.
-
+## Authors
+EL HACHYMI AHMED YASSINE
+BOURI SOUHAIL
+AJI OTHMANE
