@@ -84,5 +84,8 @@ The federated model achieves performance close to centralized training while sig
 
 ## Authors
 EL HACHYMI AHMED YASSINE
+
 BOURI SOUHAIL
+
 AJI OTHMANE
+
